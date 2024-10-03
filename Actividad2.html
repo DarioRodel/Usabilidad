@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Actividad2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Formulario de Contacto</h1> 
+        <form>
+        <!-- Campo para el nombre -->
+        <div class="form-field">
+            <!-- Etiqueta del campo nombre, con un asterisco que indica que es obligatorio -->
+            <label for="nombre">Nombre <span class="required">*</span></label> 
+            <!-- Input para el nombre,id y name relacionados, con required para que el campo sea obligatorio -->
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo"> 
+            <!-- 'placeholder' proporciona una pista visual para el usuario sobre el formato de los datos que debe ingresar -->
+        </div>
+        <!-- Campo para el correo electrónico -->
+        <div class="form-field">
+            <!-- Etiqueta para el correo electrónico, con el asterisco que indica que es obligatorio -->
+            <label for="email">Correo electrónico <span class="required">*</span></label>
+            <!-- Input para el correo electrónico. Se usa type="email" para validar que el formato sea correcto. Y required hace que sea obligatorio -->
+            <input type="email" id="email" name="email" required placeholder="nombre@ejemplo.com">
+        </div>
+        <!-- Campo para el teléfono -->
+        <div class="form-field">
+            <!-- Etiqueta para el teléfono -->
+            <label for="telefono">Teléfono</label>
+            <!-- Input para el teléfono,type="tel" permite ingresar números de teléfono. Con placeholder para dar un ejemplo -->
+            <input type="tel" id="telefono" name="telefono" placeholder="1234567890">
+        </div>
+        <!-- Campo para el mensaje -->
+        <div class="form-field">
+            <!-- Etiqueta para el mensaje -->
+            <label for="mensaje">Mensaje</label>
+            <!-- Área de texto para el mensaje. Con 5 rows para que 5 filas seaN visibles. El placeholder indica que se escribe ahi -->
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
+        </div>
+        <!-- Botón de envío -->
+        <button type="submit" class="submit-button">Enviar</button> <!-- Botón para enviar el formulario -->
+        </form>
+    </div>
+</body>
+</html>

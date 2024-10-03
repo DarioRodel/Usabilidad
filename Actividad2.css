@@ -1,0 +1,72 @@
+body {
+    /* Cambio de fuente a Arial */
+    font-family: Arial, sans-serif;
+    /* Tamaño de fuente incrementado */
+    font-size: 12px;
+    /* Añadido un color de fondo */
+    background-color: red;
+    /* Cambiado el color del texto a un gris oscuro (#333) para mejor legibilidad */
+    color: red;
+}
+.form-container {
+    /* Se ajusta el ancho máximo del contenedor del formulario a 600px  */
+    max-width: 400px;
+    /* Centrado automático del formulario */
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+    /* Sombra para hacer el formulario más destacado */
+    box-shadow: 0 0 10px black;
+}
+.form-container h1 {
+    /* Tamaño aumentado a 12px  */
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.form-field {
+    margin-bottom: 15px;
+}
+.form-field label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-field input[type="text"]:focus,
+.form-field textarea:focus {
+    /* Cambia borde de color */
+    border-color: red;
+}
+.submit-button {
+    /* Botón de envío rojo */
+    background-color: red;
+    /* Texto blanco para contraste */
+    color: white;
+    /* Padding de 5px arriba y abajo, 10px a los lados */
+    padding: 5px 10px;
+    /* Tamaño de fuente aumentado  */
+    font-size: 12px;
+    /* Borde redondeado del botón */
+    border-radius: 3px;
+}
+.submit-button:hover {
+    /* Efecto hover: el color de fondo se oscurece al pasar el mouse */
+    background-color: black;
+}
+    .form-container h1 {
+      /* El título se ajusta a 20px */
+    font-size: 20px;
+    }
+    .submit-button {
+    /* Botón de envío ocupa el 100% del ancho*/
+    width: 100%;
+      /* Padding aumentado */
+    padding: 15px;
+    }

@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f0f0;
+    color: #444444; /* Mejor contraste de texto */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px; /* Ajuste de tamaño de fuente */
+    max-width: 500px; 
+    margin: 10px auto; /* Añadir margen superior/inferior */
+    padding: 15px; /* Añadir padding para evitar que el contenido toque los bordes */
+    line-height: 1.5; /* Aumentar el espacio entre líneas */
+  }
+  h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  p {
+    margin-bottom: 15px;/* Más espacio entre párrafos */
+  } 
+  .content-box {
+    background-color: red; /* Mejor contraste para el fondo */
+    color: white; /* Texto más claro para mayor legibilidad */
+    padding: 15px; 
+    margin: 20px 0; /* Separar entre cajas de contenido */
+    border-radius: 5px; 
+  }
+  a {
+    color: blue;
+    text-decoration: none; /* Eliminar el subrayado */
+  }
+
+  a:hover {
+    text-decoration: underline; 
+  }
+  

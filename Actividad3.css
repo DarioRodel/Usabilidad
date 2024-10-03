@@ -1,0 +1,43 @@
+  /* Estilos generales del cuerpo */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    color: black; /* Color más oscuro */
+    line-height: 1.6;
+}
+
+  /* Contenedor de la imagen */
+.image-container {
+    margin: 20px 0;
+}
+
+  /* Estilos para las imágenes */
+.image-container img {
+    width: 300px;
+    height: auto;
+    border: 2px solid gray; /* Añadimos borde para resaltar la imagen */
+    box-shadow: 0 4px 6px black; /* Añaimos sombra */
+    margin: 10px;/* Margen */
+}
+
+  /* Estilos para el fondo de imagen */
+.background-image {
+    background-image: url('https://www.eniun.com/wp-content/uploads/Tutorial-Usabilidad-1-900x450.png');
+    background-position: center;/*Imagen alineada en medio*/
+    height: 350px;
+    padding: 15px;
+    color: black; /* Texto negro para contraste con la imagen de fondo */
+    display: flex;
+    align-items: center;/*Texto alineado en medio*/
+    text-align: center;/*Texto alineado en centro*/
+    margin: 10px;
+}
+
+  /* Estilos del parrafo en la imagen de fondo */
+.background-image p {
+    font-size: 18px;
+    font-weight: bold;
+}
